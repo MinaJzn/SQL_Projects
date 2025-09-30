@@ -1,0 +1,18 @@
+# Ignore database backup files
+*.bak
+*.sql~ 
+
+# Ignore local database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Ignore environment/config files (in case of credentials)
+*.env
+config.json
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+.DS_Store
