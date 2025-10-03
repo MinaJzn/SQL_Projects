@@ -59,7 +59,7 @@ GO
 CREATE TABLE [ProductCategories]
 (
 	[ID] INT IDENTITY NOT NULL PRIMARY KEY,
-	[ParentProductAtegory_ID] INT NOT NULL REFERENCES [ProductCategories]([ID]),
+	[ParentProductAtegory_ID] INT NULL REFERENCES [ProductCategories]([ID]),
 	[Title] NVARCHAR(200) NOT NULL,
 	UNIQUE([ParentProductAtegory_ID],[Title])
 );
