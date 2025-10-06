@@ -27,10 +27,14 @@ INSERT INTO [Products] ([ParentProductAtegory_ID],[ProductUnits_ID],[Code],[Titl
 VALUES 
 (1,1,N'S121',N'جوراب نایکی',N'دوازده رنگ',GETDATE()),
 (4,4,N'D1001',N'دوغ عالیس',N'نعنایی و کرفسی',N'2024-12-05'),
-(2,3,N'H456',N'لوبیا چیتی',N'اعلاء',N'2024-05-15 12:12')
+(2,3,N'H456',N'لوبیا چیتی',N'اعلاء',N'2024-05-15 12:12'),
+(3,2,N'E453',N'پاکن',N'Faber-Castell',GETDATE()),
+(3,2,N'P147',N'مداد مشکی',N'Faber-Castell',GETDATE()),
+(3,2,N'N258',N'دفتر نقاشی',N'فنردار',GETDATE())
 Go
 
 INSERT INTO [Product_Prices] ([Product_ID],[Date],[Price]) 
 VALUES
-(1,GETDATE(),20000),(2,GETDATE(),55000),(3,GETDATE(),150000)
+(1,GETDATE(),20000),(2,GETDATE(),55000),(3,GETDATE(),150000),
+(4,GETDATE(),55000),(5,GETDATE(),40000),(6,GETDATE(),105000)
 GO
