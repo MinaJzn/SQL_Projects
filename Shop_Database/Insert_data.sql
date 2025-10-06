@@ -11,8 +11,8 @@ GO
 
 INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title]) VALUES (NULL,N'پوشاک')
 INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title]) VALUES (NULL,N'حبوبات')
-INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title]) VALUES (NULL,N'مایعات')
 INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title]) VALUES (NULL,N'لوازم تحریر')
+INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title]) VALUES (NULL,N'مایعات')
 Go
 
 INSERT INTO [ProductCategories] ([ParentProductAtegory_ID],[Title])
